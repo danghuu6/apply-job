@@ -7,8 +7,8 @@ namespace apply_job_web_api.Models
 {
     public class ApplyJobWebApiDbContext : DbContext
     {
-        public DbSet<Job> jobs { set; get; }
-        public DbSet<ApplyJob> applyJobs { set; get; }
+        public DbSet<Job> Jobs { set; get; }
+        public DbSet<ApplyJob> ApplyJobs { set; get; }
 
         public ApplyJobWebApiDbContext(DbContextOptions<ApplyJobWebApiDbContext> options) : base(options) { }
 
